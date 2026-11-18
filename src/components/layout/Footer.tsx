@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { SITE_CONFIG } from "@/config/site";
@@ -20,26 +21,16 @@ export function Footer({ locale, dict }: FooterProps) {
           <div className="md:col-span-5">
             <Link
               href={`/${locale}`}
-              className="inline-flex items-center gap-2.5 text-xl font-semibold tracking-tight text-[#182622] hover:text-[#2D5A27]"
+              className="inline-flex items-center rounded-lg py-0.5 transition-opacity hover:opacity-90"
             >
-              <span
-                aria-hidden="true"
-                className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#2D5A27] text-white"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="h-4 w-4"
-                  stroke="currentColor"
-                  strokeWidth="1.75"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 6l7 12 7-12" />
-                  <path d="M9 6l3 5.5L15 6" opacity="0.65" />
-                </svg>
-              </span>
-              <span>{SITE_CONFIG.brandName}</span>
+              <Image
+                src="/logo.png"
+                alt={SITE_CONFIG.brandName}
+                width={2172}
+                height={724}
+                sizes="(max-width: 639px) 120px, 132px"
+                className="h-10 w-auto object-contain sm:h-11"
+              />
             </Link>
 
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-[#4A5A54]">

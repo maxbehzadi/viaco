@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -66,28 +67,17 @@ export function Header({ locale, dict }: HeaderProps) {
         {/* Brand */}
         <Link
           href={`/${locale}`}
-          className="group flex items-center gap-3 rounded-lg py-1 text-[#182622] transition-colors hover:text-[#2D5A27]"
+          className="inline-flex shrink-0 items-center rounded-lg py-1 transition-opacity hover:opacity-90"
         >
-          <span
-            aria-hidden="true"
-            className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#2D5A27] text-white shadow-xs transition-colors group-hover:bg-[#20342F]"
-          >
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              className="h-5 w-5"
-              stroke="currentColor"
-              strokeWidth="1.75"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M5 6l7 12 7-12" />
-              <path d="M9 6l3 5.5L15 6" opacity="0.65" />
-            </svg>
-          </span>
-          <span className="text-lg font-semibold tracking-tight text-[#182622]">
-            {dict.header.brand}
-          </span>
+          <Image
+            src="/logo.png"
+            alt={dict.header.brand}
+            width={2172}
+            height={724}
+            priority
+            sizes="(max-width: 639px) 132px, 144px"
+            className="h-11 w-auto object-contain sm:h-12"
+          />
         </Link>
 
         {/* Desktop Nav */}

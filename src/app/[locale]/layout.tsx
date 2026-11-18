@@ -81,9 +81,9 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: "/viaco/viaco-journy.png",
-          width: 1671,
-          height: 941,
+          url: "/open-graph.png",
+          width: 1731,
+          height: 909,
           alt: dict.meta.title,
         },
       ],
@@ -92,7 +92,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: dict.meta.title,
       description: dict.meta.description,
-      images: ["/viaco/viaco-journy.png"],
+      images: ["/open-graph.png"],
     },
   };
 }
@@ -118,6 +118,7 @@ export default async function LocaleLayout({
     name: SITE_CONFIG.brandName,
     description: dict.meta.description,
     url: `${SITE_CONFIG.siteUrl}/${locale}`,
+    logo: `${SITE_CONFIG.siteUrl}/logo.png`,
     areaServed: "AT",
   };
 

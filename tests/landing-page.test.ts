@@ -176,6 +176,28 @@ describe("VIACO Asset Integrity & Non-Duplication", () => {
     assert.ok(modulesCode.includes("PRODUCT_CONCEPT_ASSETS.moduleCapture"));
     assert.ok(modulesCode.includes("PRODUCT_CONCEPT_ASSETS.moduleManagement"));
   });
+
+  it("uses public/logo.png for navbar/footer branding and public/open-graph.png for social metadata", () => {
+    assert.ok(fs.existsSync(path.join(ROOT, "public/logo.png")));
+    assert.ok(fs.existsSync(path.join(ROOT, "public/open-graph.png")));
+
+    const headerCode = fs.readFileSync(
+      path.join(ROOT, "src/components/layout/Header.tsx"),
+      "utf8"
+    );
+    const footerCode = fs.readFileSync(
+      path.join(ROOT, "src/components/layout/Footer.tsx"),
+      "utf8"
+    );
+    const layoutCode = fs.readFileSync(
+      path.join(ROOT, "src/app/[locale]/layout.tsx"),
+      "utf8"
+    );
+
+    assert.ok(headerCode.includes('src="/logo.png"'));
+    assert.ok(footerCode.includes('src="/logo.png"'));
+    assert.ok(layoutCode.includes('"/open-graph.png"'));
+  });
 });
 
 describe("Demo Request Validation, Guards & PII Redaction", () => {
