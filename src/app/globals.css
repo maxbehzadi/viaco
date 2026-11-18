@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
+
+  --color-deep-forest: #20342F;
+  --color-forest-elevated: #263E38;
+  --color-deepest-forest: #172723;
+  --color-primary-green: #2D5A27;
+  --color-teal-green: #176B60;
+  --color-sage: #B6C9BC;
+  --color-warm-ivory: #F5F3EE;
+  --color-light-cream: #FDFBF7;
+  --color-sand-accent: #C2A785;
+  --color-ink: #182622;
+  --color-ink-muted: #4A5A54;
+  --color-border-light: #DFDBD2;
+}
+
+:root {
+  --surface-dark: #20342F;
+  --surface-dark-elevated: #263E38;
+  --surface-dark-deepest: #172723;
+  --surface-ivory: #F5F3EE;
+  --surface-cream: #FDFBF7;
+  --brand-primary: #2D5A27;
+  --brand-teal: #176B60;
+  --brand-sage: #B6C9BC;
+  --brand-sand: #C2A785;
+  --text-on-light: #182622;
+  --text-on-light-muted: #4A5A54;
+  --text-on-dark: #F5F3EE;
+  --text-on-dark-muted: #B6C9BC;
+  --border-subtle-light: #DFDBD2;
+  --border-subtle-dark: rgba(182, 201, 188, 0.2);
+  --control-border: #5D6D67;
+  --error-fg: #9E1C1C;
+  --error-bg: #FDF2F2;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--surface-cream);
+  color: var(--text-on-light);
+  font-family: var(--font-sans);
+  accent-color: var(--brand-primary);
+  text-rendering: optimizeLegibility;
+}
+
+/* High-contrast accessible focus indicator (WCAG 2.4.7 & 2.4.11) */
+:where(a:any-link, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--brand-primary);
+  outline-offset: 3px;
+}
+
+.light-surface :where(a:any-link, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline-color: var(--brand-teal);
+}
+
+/* Canonical visually-hidden utility keeping focusable skip links reachable */
+.visually-hidden:where(:not(:focus-within, :active)) {
+  position: absolute !important;
+  clip-path: inset(50%) !important;
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
+
+.skip-link:focus {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: var(--brand-primary);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  outline: 3px solid var(--brand-sand);
+  outline-offset: 2px;
+}
+
+/* Non-intrusive form validation styling after user interaction */
+.form-control {
+  border-color: var(--control-border);
+  font-size: max(1rem, 1em);
+  min-height: 48px;
+}
+
+.form-control:is(:user-invalid, [aria-invalid="true"]) {
+  border-color: var(--error-fg);
+  background-color: var(--error-bg);
+}
+
+.form-control:user-valid:not([aria-invalid="true"]) {
+  border-color: var(--brand-primary);
+}
+
+/* Ensure selected tabs remain distinct in Forced Colors Mode */
+@media (forced-colors: active) {
+  [role="tab"][aria-selected="true"] {
+    outline: 2px solid Highlight;
+  }
+
+  .card-surface {
+    border: 1px solid CanvasText;
+  }
+}
+
+/* Hide scrollbars cleanly for single-row overflow tablists */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
