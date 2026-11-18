@@ -1,0 +1,6 @@
+- No stylistic em dashes or en dashes.
+- No decorative badges for headings or section labels.
+- No unnecessary sections, repeated explanations, or generic AI marketing language.
+- Maintain professional image and text alignment.
+- Preserve VIACO's design system.
+- Never exaggerate product capabilities.
