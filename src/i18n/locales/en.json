@@ -72,16 +72,7 @@
         "Step-by-step paths tailored by role, system, or department",
         "Transparent progress tracking across every milestone",
         "Direct support from assigned mentors"
-      ],
-      "heroLinkLabel": "View full concept screen in the hero section",
-      "schematicTitle": "Onboarding Path: Maintenance and Service",
-      "schematicSteps": [
-        { "step": "1", "label": "Operational foundations and safety", "status": "Completed" },
-        { "step": "2", "label": "System architecture and responsibilities", "status": "Active" },
-        { "step": "3", "label": "Field cases and handover sign-off", "status": "Planned" }
-      ],
-      "mentorLabel": "Assigned Mentor",
-      "mentorRole": "Direct Q&A within each onboarding step"
+      ]
     },
     "capture": {
       "name": "VIACO Capture",

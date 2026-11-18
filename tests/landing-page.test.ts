@@ -161,7 +161,7 @@ describe("VIACO Asset Integrity & Non-Duplication", () => {
     }
   });
 
-  it("uses heroJourney only in HeroSection and never duplicates it in SolutionModulesSection", () => {
+  it("wires heroJourney, moduleCapture, and moduleManagement in their respective sections", () => {
     const heroCode = fs.readFileSync(
       path.join(ROOT, "src/components/sections/HeroSection.tsx"),
       "utf8"
@@ -172,10 +172,7 @@ describe("VIACO Asset Integrity & Non-Duplication", () => {
     );
 
     assert.ok(heroCode.includes("PRODUCT_CONCEPT_ASSETS.heroJourney"));
-    assert.equal(
-      modulesCode.includes("PRODUCT_CONCEPT_ASSETS.heroJourney"),
-      false
-    );
+    assert.ok(modulesCode.includes("PRODUCT_CONCEPT_ASSETS.heroJourney"));
     assert.ok(modulesCode.includes("PRODUCT_CONCEPT_ASSETS.moduleCapture"));
     assert.ok(modulesCode.includes("PRODUCT_CONCEPT_ASSETS.moduleManagement"));
   });

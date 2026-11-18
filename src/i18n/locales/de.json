@@ -72,16 +72,7 @@
         "Schrittweise Lernpfade nach Rolle, Anlage oder Abteilung",
         "Transparenter Fortschritt über alle Etappen hinweg",
         "Direkte Unterstützung durch zugewiesene Mentorinnen und Mentoren"
-      ],
-      "heroLinkLabel": "Vollständige Konzeptansicht im Kopfbereich ansehen",
-      "schematicTitle": "Einarbeitungspfad: Service und Instandhaltung",
-      "schematicSteps": [
-        { "step": "1", "label": "Betriebliche Grundlagen und Sicherheit", "status": "Erledigt" },
-        { "step": "2", "label": "Anlagenaufbau und Zuständigkeiten", "status": "Aktiv" },
-        { "step": "3", "label": "Praxisfälle und Übergabe-Check", "status": "Geplant" }
-      ],
-      "mentorLabel": "Fachliche Begleitung",
-      "mentorRole": "Direkte Rückfragen im jeweiligen Lernschritt"
+      ]
     },
     "capture": {
       "name": "VIACO Capture",
