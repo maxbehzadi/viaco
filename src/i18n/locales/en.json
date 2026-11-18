@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "title": "VIACO | AI-Supported Knowledge Preservation and Structured Onboarding",
+    "description": "VIACO is developing a platform for organizational knowledge preservation, structured onboarding, and source-linked AI assistance.",
+    "impressumTitle": "Impressum (Legal Notice) | VIACO",
+    "impressumDescription": "Legal disclosure information pursuant to Austrian law for the VIACO project.",
+    "datenschutzTitle": "Privacy Policy | VIACO",
+    "datenschutzDescription": "GDPR privacy notice and data processing information for the VIACO website."
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "primaryNav": "Primary navigation",
+    "mobileNav": "Mobile navigation",
+    "languageSwitcher": "Select language",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "footerNav": "Footer navigation",
+    "expandConceptImage": "Expand concept view",
+    "closeLightbox": "Close expanded view",
+    "lightboxTitle": "Expanded Concept View"
+  },
+  "header": {
+    "brand": "VIACO",
+    "nav": {
+      "solutions": "Solutions",
+      "howItWorks": "How It Works",
+      "audience": "Who It Helps",
+      "about": "About VIACO",
+      "contact": "Contact"
+    },
+    "cta": "Request Concept Demo",
+    "langDe": "DE",
+    "langEn": "EN"
+  },
+  "hero": {
+    "headline": "Knowledge that stays. People who grow.",
+    "subheadline": "VIACO helps companies capture practical expertise from daily work, structure it for employee onboarding, and make verified knowledge accessible through an AI assistant with clear source citations.",
+    "primaryCta": "Request Concept Demo",
+    "secondaryCta": "Explore Platform",
+    "stageNote": "VIACO is currently in development. We welcome companies in Austria for early concept discussions.",
+    "expandButton": "Expand"
+  },
+  "problem": {
+    "headline": "Why practical expertise gets lost in daily operations",
+    "subheadline": "In many organizations, critical operational know-how resides with individual specialists rather than in a structured system.",
+    "items": [
+      {
+        "id": "loss",
+        "title": "Practical expertise leaves with experienced staff",
+        "description": "When senior specialists retire or change roles, years of troubleshooting intuition around equipment, workflows, and edge cases disappear if they were never captured."
+      },
+      {
+        "id": "repetition",
+        "title": "Teams solve the same technical issues repeatedly",
+        "description": "Proven fixes remain scattered across chats, emails, and folders, forcing colleagues to diagnose recurring issues from scratch."
+      },
+      {
+        "id": "onboarding",
+        "title": "Onboarding ties up senior specialists",
+        "description": "Without a clear learning path, experienced colleagues must constantly pause productive work to explain routine procedures and operational rules."
+      }
+    ]
+  },
+  "solution": {
+    "headline": "One Platform. Knowledge That Stays.",
+    "subheadline": "VIACO brings structured onboarding, low-friction knowledge capture, governed retrieval, and role-based management together in one coherent workflow.",
+    "journey": {
+      "name": "VIACO Journey",
+      "headline": "Structured onboarding tailored to each role",
+      "description": "New employees follow clearly organized steps matched to their role and equipment. Each stage tracks progress transparently and connects directly to designated mentors.",
+      "benefits": [
+        "Step-by-step paths tailored by role, system, or department",
+        "Transparent progress tracking across every milestone",
+        "Direct support from assigned mentors"
+      ],
+      "heroLinkLabel": "View full concept screen in the hero section",
+      "schematicTitle": "Onboarding Path: Maintenance and Service",
+      "schematicSteps": [
+        { "step": "1", "label": "Operational foundations and safety", "status": "Completed" },
+        { "step": "2", "label": "System architecture and responsibilities", "status": "Active" },
+        { "step": "3", "label": "Field cases and handover sign-off", "status": "Planned" }
+      ],
+      "mentorLabel": "Assigned Mentor",
+      "mentorRole": "Direct Q&A within each onboarding step"
+    },
+    "capture": {
+      "name": "VIACO Capture",
+      "headline": "Capture practical experience by voice or text",
+      "description": "Right after completing a task, specialists describe the problem, steps taken, and outcome by voice note or text. AI produces a structured draft that a human reviews, edits, and confirms before publication.",
+      "benefits": [
+        "Fast logging by voice or text without lengthy report forms",
+        "Automatic structuring into problem, root cause, and verification steps",
+        "Mandatory human confirmation or editing prior to release"
+      ]
+    },
+    "memoryAssistant": {
+      "name": "VIACO Memory & AI Assistant",
+      "headline": "Store approved knowledge and retrieve answers with sources",
+      "description": "Approved entries form an organized, permission-aware knowledge base. In daily work, the AI assistant answers technical questions strictly from approved records and always cites the underlying source.",
+      "memoryTitle": "VIACO Memory",
+      "memoryDesc": "Approved records stay organized with technical metadata, lifecycle status, and access permissions.",
+      "assistantTitle": "VIACO AI Assistant",
+      "assistantDesc": "Answers natural-language questions with source citations and flags clearly when no verified record exists.",
+      "schematicTitle": "Source-Linked Answer (Schematic Preview)",
+      "schematicQuestion": "“Why is product-detail caching constantly returning cache misses in staging?”",
+      "schematicAnswer": "Per the approved entry from Nov 18, 2026, an incorrect database index (REDIS_DB) caused the issue in staging. Updating the variable restored caching.",
+      "schematicSourceLabel": "Source",
+      "schematicSourceValue": "Knowledge Entry #PRJ-204 (Approved)",
+      "schematicAccessNote": "Visible to authorized roles"
+    },
+    "management": {
+      "name": "VIACO Management",
+      "headline": "Manage onboarding paths, progress, and access rights",
+      "description": "As the administrative capability within the same platform, VIACO Management lets team leads assign onboarding paths by role or department, monitor progress, coordinate mentors, and govern access permissions.",
+      "benefits": [
+        "Assign onboarding paths cleanly by role or department",
+        "Clear overview of ongoing onboarding and open steps",
+        "Clean separation between new-joiner views and access management"
+      ]
+    }
+  },
+  "howItWorks": {
+    "headline": "From field experience to shared team knowledge in four steps",
+    "subheadline": "Every contribution passes through human review before teams rely on it in daily operations.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Share experience",
+        "description": "A specialist describes a solved issue by voice note or text directly after completing the task."
+      },
+      {
+        "number": "2",
+        "title": "Review AI draft",
+        "description": "AI structures symptom, root cause, and resolution. The contributor reviews and refines the draft."
+      },
+      {
+        "number": "3",
+        "title": "Approve knowledge",
+        "description": "After explicit confirmation and permission tagging, the entry enters the governed knowledge base."
+      },
+      {
+        "number": "4",
+        "title": "Use in daily work and onboarding",
+        "description": "Teams query the source-linked AI assistant on the job or include lessons in onboarding paths."
+      }
+    ],
+    "exampleTitle": "Concept example: Staging caching issue (REDIS_DB)",
+    "exampleBody": "After a deployment, product-detail caching in staging produces continuous cache misses. Neither restarting Redis nor flushing the cache fixes the issue until inspecting the REDIS_DB variable reveals the wrong database index. VIACO Capture structures this finding into a reviewable draft, which enters the knowledge base only after human confirmation."
+  },
+  "whoWeHelp": {
+    "headline": "Who VIACO is built for",
+    "subheadline": "During market validation, we focus deliberately on two technical environments where practical expertise drives daily operations.",
+    "groups": [
+      {
+        "id": "industrial",
+        "tag": "Primary focus in Austria",
+        "title": "Industrial maintenance and technical field service",
+        "description": "Organizations where equipment availability, shift handovers, and maintenance rely on the hands-on experience of seasoned technicians.",
+        "points": [
+          "Preserving practical equipment know-how ahead of retirements",
+          "Capturing recurring fault patterns quickly in the field",
+          "Structured onboarding for new service and maintenance technicians"
+        ]
+      },
+      {
+        "id": "engineering",
+        "tag": "Adaptable scenario",
+        "title": "Technical teams and software engineering",
+        "description": "Engineering and operations teams where system configurations, deployment details, and architectural context otherwise stay buried in tickets and chats.",
+        "points": [
+          "Documenting diagnostic and configuration fixes",
+          "Reliable handovers of project and infrastructure knowledge",
+          "Clear onboarding paths for new engineers"
+        ]
+      }
+    ]
+  },
+  "trustDeployment": {
+    "headline": "Governance, privacy, and planned deployment options",
+    "subheadline": "All platform capabilities are under development. We clearly separate architectural design principles from planned hosting options.",
+    "governanceTitle": "Governance and AI responsibility principles",
+    "governanceItems": [
+      {
+        "title": "Human approval before release",
+        "description": "Unreviewed drafts never become team knowledge automatically. Every captured experience requires explicit confirmation."
+      },
+      {
+        "title": "Role-based access control",
+        "description": "AI assistant retrieval and onboarding content are designed around defined role and department permissions."
+      },
+      {
+        "title": "Source-linked answers",
+        "description": "AI responses cite approved internal entries and state clearly when no verified information exists."
+      },
+      {
+        "title": "Data minimization and GDPR by design",
+        "description": "European data protection requirements guide the product architecture from the ground up."
+      }
+    ],
+    "deploymentTitle": "Planned hosting and client access",
+    "deploymentItems": [
+      {
+        "title": "Public website and customer platform separated",
+        "description": "This validation website is hosted on Vercel. Future customer workspaces are architecturally separate and support independent hosting."
+      },
+      {
+        "title": "EU cloud, dedicated hosting, and on-premise under evaluation",
+        "description": "Depending on security requirements and architecture, EU-hosted cloud environments, dedicated instances, and on-premise options are being evaluated."
+      },
+      {
+        "title": "Planned access channels (Web, Desktop, Mobile)",
+        "description": "A browser-based web application is the starting point. Desktop and mobile apps are part of the roadmap and are not yet available."
+      }
+    ]
+  },
+  "about": {
+    "headline": "About VIACO",
+    "intro": "VIACO is an early-stage software and AI initiative in Austria focused on keeping operational expertise usable over time and onboarding new employees with clarity.",
+    "detail": "We prioritize clear workflows over isolated point tools: low friction when recording field experience, human review before every publication, and transparent source citations in daily work. We are currently engaging with companies in Austria to shape the platform directly around real workflows.",
+    "visionQuote": "“Operational knowledge should remain alive, trustworthy, and useful long after the people who earned it have moved on.”"
+  },
+  "contact": {
+    "headline": "Let’s discuss how your team preserves operational knowledge.",
+    "subheadline": "Share a few details about your situation. We will walk through the VIACO concept together and explore whether it fits your workflows.",
+    "expectationNote": "We will follow up personally to discuss your requirements and the VIACO concept.",
+    "expectations": [
+      "Exploratory concept discussion (20 to 30 minutes)",
+      "Walkthrough of planned workflows for Journey, Capture, Memory, and Management",
+      "Open exchange on your experiences with handovers and onboarding"
+    ],
+    "transparencyBoxTitle": "Development stage notice",
+    "transparencyBoxBody": "VIACO is in concept and validation stage. Submitting this form schedules a personal concept conversation rather than immediate product access.",
+    "directEmailLabel": "Direct email contact",
+    "form": {
+      "formHeading": "Request a Concept Demo",
+      "nameLabel": "Name",
+      "namePlaceholder": "First and last name",
+      "emailLabel": "Business Email",
+      "emailHint": "Example: name@company.com",
+      "emailPlaceholder": "name@company.com",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Your company name",
+      "companySizeLabel": "Company Size (optional)",
+      "companySizePlaceholder": "Optional selection ...",
+      "companySizes": [
+        { "value": "1-19", "label": "1-19 employees" },
+        { "value": "20-49", "label": "20-49 employees" },
+        { "value": "50-249", "label": "50-249 employees" },
+        { "value": "250-999", "label": "250-999 employees" },
+        { "value": "1000+", "label": "1,000+ employees" }
+      ],
+      "challengeLabel": "Primary Challenge (optional)",
+      "challengePlaceholder": "Optional selection ...",
+      "challenges": [
+        { "value": "knowledge-loss", "label": "Knowledge loss due to retirements or staff turnover" },
+        { "value": "onboarding", "label": "Slow or inconsistent onboarding of new staff" },
+        { "value": "documentation", "label": "Scattered know-how across files, chats, and individuals" },
+        { "value": "maintenance-efficiency", "label": "Repeated troubleshooting in service or operations" },
+        { "value": "other", "label": "Other / General interest in the concept" }
+      ],
+      "messageLabel": "Message or Feedback (optional)",
+      "messageHint": "What is currently your biggest challenge around knowledge transfer or onboarding?",
+      "messagePlaceholder": "e.g., team setup, critical systems, or questions to discuss ...",
+      "privacyLabel": "I agree that my submitted details may be processed to respond to this concept demo inquiry in accordance with the Privacy Policy.",
+      "privacyLinkText": "Read Privacy Policy",
+      "submit": "Request Concept Demo",
+      "submitting": "Submitting inquiry ...",
+      "validation": {
+        "nameRequired": "Please enter your name (at least 2 characters).",
+        "emailRequired": "Please enter your business email address.",
+        "emailInvalid": "Please enter a valid email address.",
+        "companyRequired": "Please enter your company name.",
+        "privacyRequired": "Please confirm the privacy processing notice for this inquiry.",
+        "summaryPrefix": "Please review the highlighted fields:"
+      },
+      "states": {
+        "configuredSuccessTitle": "Thank you for your inquiry",
+        "configuredSuccessBody": "We have received your details. We will follow up personally to discuss your requirements and the VIACO concept.",
+        "pendingIntegrationTitle": "Details validated: Ready to send via email draft",
+        "pendingIntegrationBody": "Your form details passed validation cleanly. Because no external CRM or email webhook is connected in this environment yet, you can open a pre-filled email draft to office@viaco.at or copy your summary below.",
+        "pendingFallbackAction": "Open email draft to office@viaco.at",
+        "pendingCopySummary": "Copy summary",
+        "copiedConfirmation": "Copied to clipboard",
+        "rateLimitTitle": "Too many inquiries in a short window",
+        "rateLimitBody": "Please wait a few minutes before sending another inquiry, or email us directly at office@viaco.at.",
+        "duplicateTitle": "This inquiry was just submitted",
+        "duplicateBody": "An identical inquiry was received moments ago. If you want to add details, please write directly to office@viaco.at.",
+        "errorTitle": "Unable to submit right now",
+        "errorBody": "An error occurred while processing your request. Please try again or reach out directly at office@viaco.at.",
+        "resetButton": "Submit another inquiry"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Concept for AI-supported knowledge preservation and structured onboarding in Austria.",
+    "columns": {
+      "solutions": "Platform and Flow",
+      "company": "Overview",
+      "legalAndContact": "Legal and Contact"
+    },
+    "links": {
+      "problem": "Challenges",
+      "modules": "Platform Solutions",
+      "howItWorks": "How It Works",
+      "whoWeHelp": "Who It Helps",
+      "trust": "Trust and Deployment",
+      "about": "About VIACO",
+      "contact": "Request Concept Demo",
+      "impressum": "Impressum (Legal Notice)",
+      "datenschutz": "Privacy Policy"
+    },
+    "linkedinLabel": "LinkedIn",
+    "statusNote": "VIACO · Concept and validation stage · Austria",
+    "backToTop": "Back to top"
+  },
+  "legal": {
+    "backHome": "Back to Home",
+    "placeholderWarningTitle": "Notice on Current Project Stage",
+    "placeholderWarningBody": "VIACO is currently in its early concept and validation stage. Pending formal company registration fields are explicitly marked and will be finalized prior to commercial launch.",
+    "impressum": {
+      "title": "Impressum (Legal Notice)",
+      "subtitle": "Disclosures pursuant to Austrian law (§ 5 ECG, § 14 UGB, § 63 GewO, § 25 MedienG)",
+      "sections": [
+        {
+          "heading": "Media Owner and Project Responsibility",
+          "items": [
+            { "label": "Project / Company Name", "key": "companyLegalName" },
+            { "label": "Status and Purpose", "key": "legalForm" },
+            { "label": "Address", "key": "address" },
+            { "label": "Country", "key": "country" }
+          ]
+        },
+        {
+          "heading": "Contact",
+          "items": [
+            { "label": "Email", "key": "email" },
+            { "label": "Telephone", "key": "phone" }
+          ]
+        },
+        {
+          "heading": "Commercial and Trade Disclosures (to be completed prior to launch)",
+          "items": [
+            { "label": "Commercial Register and Court", "key": "commercialRegister" },
+            { "label": "VAT ID (UID-Nummer)", "key": "vatId" },
+            { "label": "Chamber Membership (WKO)", "key": "chamber" },
+            { "label": "Competent Authority", "key": "authority" }
+          ]
+        },
+        {
+          "heading": "Editorial Purpose (§ 25 MedienG)",
+          "body": "Providing information about the VIACO software and AI concept for organizational knowledge preservation and structured employee onboarding, and enabling non-binding contact for concept discussions."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Privacy Policy (Datenschutzerklärung)",
+      "subtitle": "Information on personal data processing under the EU GDPR and Austrian TKG 2021",
+      "sections": [
+        {
+          "heading": "1. Controller and Contact",
+          "body": "The controller responsible for personal data processing on this website is the VIACO project (contact: office@viaco.at). Current entity status and legal notice disclosures are listed in the Impressum."
+        },
+        {
+          "heading": "2. Hosting on Vercel and Server Connection Logs",
+          "body": "This website is hosted by Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA). When accessing pages, hosting infrastructure processes technically necessary connection metadata (e.g., IP address, timestamp, requested path, user agent) in server logs to ensure availability and security (legal basis: Art. 6(1)(f) GDPR). Any international data transfers rely on appropriate safeguards under Art. 44 et seq. GDPR."
+        },
+        {
+          "heading": "3. Cookieless Reach and Performance Measurement (Vercel Web Analytics and Speed Insights)",
+          "body": "To monitor technical reliability and understand aggregated usage, this site uses Vercel Web Analytics and Vercel Speed Insights. These tools operate without advertising cookies and never receive names, email addresses, or form content. Query parameters are stripped prior to transmission, and Do Not Track (DNT) as well as Global Privacy Control (GPC) browser signals are respected. You can disable telemetry in this browser at any time using the control below."
+        },
+        {
+          "heading": "4. Contact and Concept Demo Inquiries",
+          "body": "When submitting the Request a Concept Demo form, we process your name, business email, company name, and optional entries (company size, primary challenge, message) solely to review and respond to your inquiry (Art. 6(1)(b) and Art. 6(1)(f) GDPR). No marketing newsletter subscriptions are bundled with this form. Technical error logs on the API endpoint strip all personal contact fields."
+        },
+        {
+          "heading": "5. Retention and Your GDPR Rights",
+          "body": "Inquiry details are retained only as long as needed to coordinate our discussion or fulfill statutory retention duties. You have rights of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), data portability (Art. 20), and objection (Art. 21 GDPR) via office@viaco.at. You also have the right to lodge a complaint with the Austrian Data Protection Authority (Österreichische Datenschutzbehörde, Barichgasse 40 to 42, 1030 Vienna, dsb.gv.at)."
+        }
+      ],
+      "optOutControl": {
+        "title": "Aggregated Usage and Performance Measurement Preference",
+        "description": "You may disable or re-enable anonymized page-view and Web Vitals measurement (Vercel Web Analytics / Speed Insights) in this browser at any time.",
+        "statusActive": "Status: Anonymized measurement active (unless browser DNT/GPC is enabled)",
+        "statusDisabled": "Status: Measurement disabled in this browser",
+        "statusDnt": "Notice: Your browser sends a Do Not Track or Global Privacy Control signal. Telemetry is automatically suppressed.",
+        "disableButton": "Disable measurement",
+        "enableButton": "Re-enable measurement"
+      }
+    }
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "title": "VIACO | KI-gestützte Wissenssicherung und strukturiertes Onboarding",
+    "description": "VIACO entwickelt eine Plattform für betriebliche Wissenssicherung, strukturierte Einarbeitung und quellenbasierte KI-Unterstützung in Unternehmen.",
+    "impressumTitle": "Impressum | VIACO",
+    "impressumDescription": "Rechtliche Hinweise und Offenlegung gemäß österreichischem Recht für das VIACO-Projekt.",
+    "datenschutzTitle": "Datenschutzerklärung | VIACO",
+    "datenschutzDescription": "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO und TKG 2021 bei VIACO."
+  },
+  "a11y": {
+    "skipToContent": "Direkt zum Hauptinhalt springen",
+    "primaryNav": "Hauptnavigation",
+    "mobileNav": "Mobile Navigation",
+    "languageSwitcher": "Sprache wählen",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen",
+    "footerNav": "Fußzeilen-Navigation",
+    "expandConceptImage": "Konzeptansicht vergrößert anzeigen",
+    "closeLightbox": "Vergrößerte Ansicht schließen",
+    "lightboxTitle": "Vergrößerte Konzeptansicht"
+  },
+  "header": {
+    "brand": "VIACO",
+    "nav": {
+      "solutions": "Lösungen",
+      "howItWorks": "Ablauf",
+      "audience": "Zielgruppen",
+      "about": "Über VIACO",
+      "contact": "Kontakt"
+    },
+    "cta": "Konzeptdemo anfragen",
+    "langDe": "DE",
+    "langEn": "EN"
+  },
+  "hero": {
+    "headline": "Wissen, das bleibt. Menschen, die wachsen.",
+    "subheadline": "VIACO unterstützt Unternehmen dabei, wichtiges Erfahrungswissen im Arbeitsalltag einfach festzuhalten, strukturiert für die Einarbeitung zu nutzen und über einen KI-Assistenten mit klaren Quellen zugänglich zu machen.",
+    "primaryCta": "Konzeptdemo anfragen",
+    "secondaryCta": "Plattform ansehen",
+    "stageNote": "VIACO befindet sich in der Entwicklung. Wir laden Unternehmen in Österreich zu ersten Konzeptgesprächen ein.",
+    "expandButton": "Vergrößern"
+  },
+  "problem": {
+    "headline": "Warum betriebliches Wissen im Alltag verloren geht",
+    "subheadline": "In vielen Betrieben liegt entscheidendes Praxiswissen bei einzelnen Fachkräften statt in einer verlässlichen Struktur.",
+    "items": [
+      {
+        "id": "loss",
+        "title": "Erfahrungswissen verlässt das Unternehmen",
+        "description": "Bei Pensionierungen oder Teamwechseln gehen jahrelange Kniffe zu Anlagen, Abläufen und Sonderfällen verloren, wenn sie nie geordnet festgehalten wurden."
+      },
+      {
+        "id": "repetition",
+        "title": "Gleiche Probleme werden mehrfach gelöst",
+        "description": "Lösungen liegen verstreut in Chats, E-Mails oder Ordnern. Bei wiederkehrenden Störungen investieren Teams wertvolle Zeit wiederholt in dieselbe Fehlersuche."
+      },
+      {
+        "id": "onboarding",
+        "title": "Einarbeitung bindet erfahrene Fachkräfte",
+        "description": "Ohne klaren Lernpfad müssen erfahrene Kolleginnen und Kollegen immer wieder aus dem Tagesgeschäft geholt werden, um Grundlagen und Praxisregeln zu erklären."
+      }
+    ]
+  },
+  "solution": {
+    "headline": "Eine Plattform. Wissen, das bleibt.",
+    "subheadline": "VIACO verbindet strukturierte Einarbeitung, einfache Wissenserfassung, geprüfte Wissensspeicherung und rollenbasierte Verwaltung in einem durchgängigen Ablauf.",
+    "journey": {
+      "name": "VIACO Journey",
+      "headline": "Strukturierte Einarbeitung entlang realer Rollen",
+      "description": "Neue Mitarbeiterinnen und Mitarbeiter durchlaufen klar aufgebaute Lernschritte passend zu ihrer Rolle und Anlage. Jeder Schritt zeigt den aktuellen Fortschritt und verweist direkt auf zuständige Mentorinnen und Mentoren.",
+      "benefits": [
+        "Schrittweise Lernpfade nach Rolle, Anlage oder Abteilung",
+        "Transparenter Fortschritt über alle Etappen hinweg",
+        "Direkte Unterstützung durch zugewiesene Mentorinnen und Mentoren"
+      ],
+      "heroLinkLabel": "Vollständige Konzeptansicht im Kopfbereich ansehen",
+      "schematicTitle": "Einarbeitungspfad: Service und Instandhaltung",
+      "schematicSteps": [
+        { "step": "1", "label": "Betriebliche Grundlagen und Sicherheit", "status": "Erledigt" },
+        { "step": "2", "label": "Anlagenaufbau und Zuständigkeiten", "status": "Aktiv" },
+        { "step": "3", "label": "Praxisfälle und Übergabe-Check", "status": "Geplant" }
+      ],
+      "mentorLabel": "Fachliche Begleitung",
+      "mentorRole": "Direkte Rückfragen im jeweiligen Lernschritt"
+    },
+    "capture": {
+      "name": "VIACO Capture",
+      "headline": "Praxiserfahrung per Sprache oder Text festhalten",
+      "description": "Nach einem Einsatz schildern Fachkräfte Problem, Lösungsweg und Ergebnis per kurzer Sprachaufnahme oder Textnotiz. Die KI erstellt daraus einen strukturierten Entwurf, der vor der Veröffentlichung bewusst von Menschen geprüft und bestätigt wird.",
+      "benefits": [
+        "Schnelle Erfassung per Sprache oder Text ohne aufwendige Berichtsformulare",
+        "Automatische Gliederung in Problem, Ursache und Prüfschritte",
+        "Verbindliche Bestätigung oder Bearbeitung vor jeder Freigabe"
+      ]
+    },
+    "memoryAssistant": {
+      "name": "VIACO Memory & AI Assistant",
+      "headline": "Geprüftes Wissen speichern und mit Quellen abrufen",
+      "description": "Freigegebene Erfahrungen bilden eine geordnete, zugriffsgeschützte Wissensbasis. Der KI-Assistent beantwortet Fachfragen im Arbeitsalltag ausschließlich auf Basis dieser geprüften Einträge und nennt immer die zugehörige Quelle.",
+      "memoryTitle": "VIACO Memory",
+      "memoryDesc": "Freigegebene Einträge bleiben mit technischen Metadaten und Zugriffsrechten aktuell und auffindbar.",
+      "assistantTitle": "VIACO AI Assistant",
+      "assistantDesc": "Antwortet in natürlicher Sprache mit Quellenverweis und macht kenntlich, wenn keine geprüfte Information vorliegt.",
+      "schematicTitle": "Quellenbasierte Antwort (Schematische Vorschau)",
+      "schematicQuestion": "„Warum liefert das Produktdetail-Caching im Staging ständig Cache Misses?“",
+      "schematicAnswer": "Im freigegebenen Eintrag vom 18. Nov. 2026 wurde ein falscher Datenbank-Index (REDIS_DB) als Ursache dokumentiert. Nach Korrektur der Variable arbeitete das Caching wieder normal.",
+      "schematicSourceLabel": "Quelle",
+      "schematicSourceValue": "Wissenseintrag #PRJ-204 (Freigegeben)",
+      "schematicAccessNote": "Sichtbar für freigegebene Rollen"
+    },
+    "management": {
+      "name": "VIACO Management",
+      "headline": "Einarbeitung steuern, Fortschritt sehen, Zugriffe verwalten",
+      "description": "Als administrative Ansicht innerhalb derselben Plattform ermöglicht VIACO Management Teamleitungen die Zuweisung von Onboarding-Pfaden, die Koordination von Mentorinnen und Mentoren sowie die Steuerung rollenbasierter Zugriffsrechte.",
+      "benefits": [
+        "Zuweisung passender Onboarding-Pfade nach Rolle oder Abteilung",
+        "Übersicht über laufende Einarbeitungen und offene Schritte",
+        "Klare Trennung zwischen Mitarbeiter-Ansicht und Zugriffsverwaltung"
+      ]
+    }
+  },
+  "howItWorks": {
+    "headline": "In vier Schritten von der Erfahrung zum Teamwissen",
+    "subheadline": "Jeder Beitrag durchläuft einen klaren Freigabeprozess, bevor er anderen im Betrieb zur Verfügung steht.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Erfahrung festhalten",
+        "description": "Eine Fachkraft beschreibt ein gelöstes Problem per Sprachnotiz oder Text direkt nach dem Einsatz."
+      },
+      {
+        "number": "2",
+        "title": "KI-Entwurf prüfen",
+        "description": "Die KI strukturiert Problem, Ursache und Lösung. Die einreichende Person prüft und korrigiert den Entwurf."
+      },
+      {
+        "number": "3",
+        "title": "Wissen freigeben",
+        "description": "Nach ausdrücklicher Bestätigung und Berechtigungszuordnung wird der Eintrag in der Wissensbasis abgelegt."
+      },
+      {
+        "number": "4",
+        "title": "Im Alltag und Onboarding nutzen",
+        "description": "Teams fragen den KI-Assistenten mit Quellenverweis ab oder binden den Fall in Lernpfade ein."
+      }
+    ],
+    "exampleTitle": "Konzeptbeispiel: Staging-Caching-Problem (REDIS_DB)",
+    "exampleBody": "Nach einem Deployment liefert das Produktdetail-Caching im Staging ständig Cache Misses. Weder ein Neustart von Redis noch das Leeren des Cache lösen das Problem, bis die Prüfung der Variable REDIS_DB den falschen Datenbank-Index aufdeckt. VIACO Capture strukturiert diese Erkenntnis als Entwurf, der erst nach Bestätigung durch die zuständige Person in die Wissensdatenbank übernommen wird."
+  },
+  "whoWeHelp": {
+    "headline": "Für wen VIACO entwickelt wird",
+    "subheadline": "In der aktuellen Validierungsphase konzentrieren wir uns auf zwei Einsatzfelder, in denen Erfahrungswissen den Betrieb trägt.",
+    "groups": [
+      {
+        "id": "industrial",
+        "tag": "Primärer Fokus in Österreich",
+        "title": "Industrielle Instandhaltung und technischer Service",
+        "description": "Betriebe, in denen Anlagenverfügbarkeit, Schichtübergaben und Wartung auf dem praktischen Wissen erfahrener Technikerinnen und Techniker beruhen.",
+        "points": [
+          "Wissenssicherung vor Pensionierungen oder Teamwechseln",
+          "Schnelle Erfassung wiederkehrender Fehlerbilder im Feld",
+          "Strukturierte Einarbeitung neuer Service- und Instandhaltungskräfte"
+        ]
+      },
+      {
+        "id": "engineering",
+        "tag": "Übertragbares Szenario",
+        "title": "Technische Teams und Software-Engineering",
+        "description": "Entwicklungs- und Betriebsteams, bei denen Systemkonfigurationen, Deployment-Besonderheiten und Architekturwissen sonst in Tickets und Chats untergehen.",
+        "points": [
+          "Festhalten von Diagnose- und Konfigurationslösungen",
+          "Nachvollziehbare Übergabe von Projekt- und Infrastrukturwissen",
+          "Geordnete Onboarding-Pfade für neue Entwicklerinnen und Entwickler"
+        ]
+      }
+    ]
+  },
+  "trustDeployment": {
+    "headline": "Verantwortung, Datenschutz und geplante Betriebsmodelle",
+    "subheadline": "Alle Plattformfunktionen befinden sich im Aufbau. Wir trennen Architekturprinzipien klar von geplanten Bereitstellungsmodellen.",
+    "governanceTitle": "Prinzipien für Governance und KI-Verantwortung",
+    "governanceItems": [
+      {
+        "title": "Menschliche Freigabe vor Veröffentlichung",
+        "description": "Ungeprüfte Entwürfe gelangen nicht automatisch in das Teamwissen. Jede erfasste Erfahrung erfordert eine bewusste Bestätigung."
+      },
+      {
+        "title": "Rollenbasierte Zugriffssteuerung",
+        "description": "Der KI-Assistent und Onboarding-Inhalte richten sich im Zielkonzept nach definierten Rollen und Bereichsfreigaben."
+      },
+      {
+        "title": "Antworten mit Quellenbezug",
+        "description": "KI-Antworten verweisen auf freigegebene interne Einträge und weisen aus, wenn keine geprüfte Grundlage vorliegt."
+      },
+      {
+        "title": "Datensparsamkeit und DSGVO by Design",
+        "description": "Europäische Datenschutzanforderungen fließen von Beginn an in die Produktarchitektur ein."
+      }
+    ],
+    "deploymentTitle": "Geplante Bereitstellung und Endgeräte",
+    "deploymentItems": [
+      {
+        "title": "Öffentliche Website und Kundenplattform getrennt",
+        "description": "Diese Informationswebsite wird über Vercel bereitgestellt. Für eine spätere produktive Kundenplattform sind unabhängige Hosting-Optionen vorgesehen."
+      },
+      {
+        "title": "EU-Cloud, dedizierter Betrieb und On-Premise in Prüfung",
+        "description": "Abhängig von Sicherheitsanforderungen und Architektur werden EU-gehostete Cloud-Umgebungen, dedizierte Instanzen und On-Premise-Optionen evaluiert."
+      },
+      {
+        "title": "Geplante Zugriffswege (Web, Desktop, Mobile)",
+        "description": "Eine Web-Anwendung im Browser bildet den Startpunkt. Desktop- und Mobile-Apps sind Teil der weiteren Roadmap und noch nicht verfügbar."
+      }
+    ]
+  },
+  "about": {
+    "headline": "Über VIACO",
+    "intro": "VIACO ist ein frühes österreichisches Software- und KI-Projekt. Ziel ist es, betriebliches Erfahrungswissen dauerhaft nutzbar zu halten und neue Mitarbeiterinnen und Mitarbeiter geordnet einzuarbeiten.",
+    "detail": "Wir setzen auf klare Abläufe statt isolierter Einzellösungen: niedrige Hürden beim Festhalten von Erfahrungen, menschliche Prüfung vor jeder Freigabe und nachvollziehbare Quellen im Arbeitsalltag. Aktuell sprechen wir mit Betrieben in Österreich, um reale Anforderungen direkt in die Entwicklung einzubringen.",
+    "visionQuote": "„Wissen soll im Betrieb auch dann zugänglich, nachvollziehbar und wirksam bleiben, wenn erfahrene Menschen neue Wege gehen.“"
+  },
+  "contact": {
+    "headline": "Lassen Sie uns über Ihre Wissenssicherung sprechen.",
+    "subheadline": "Teilen Sie uns kurz Ihre Situation mit. Wir zeigen Ihnen unser aktuelles VIACO-Konzept und besprechen offen, ob und wie es zu Ihrem Betrieb passt.",
+    "expectationNote": "Wir melden uns persönlich, um Ihre Anforderungen und das VIACO-Konzept zu besprechen.",
+    "expectations": [
+      "Unverbindliches Konzeptgespräch (20 bis 30 Minuten)",
+      "Einblick in die geplanten Abläufe von Journey, Capture, Memory und Management",
+      "Offener Austausch zu Ihren Erfahrungen bei Übergaben und Einarbeitung"
+    ],
+    "transparencyBoxTitle": "Hinweis zum Entwicklungsstand",
+    "transparencyBoxBody": "VIACO befindet sich in der Konzept- und Validierungsphase. Eine Anfrage ermöglicht ein persönliches Konzeptgespräch und keinen sofortigen Produktzugang.",
+    "directEmailLabel": "Direkter Kontakt per E-Mail",
+    "form": {
+      "formHeading": "Konzeptdemo anfragen",
+      "nameLabel": "Name",
+      "namePlaceholder": "Vor- und Nachname",
+      "emailLabel": "Geschäftliche E-Mail-Adresse",
+      "emailHint": "Beispiel: name@unternehmen.at",
+      "emailPlaceholder": "name@unternehmen.at",
+      "companyLabel": "Unternehmen",
+      "companyPlaceholder": "Name Ihres Unternehmens",
+      "companySizeLabel": "Unternehmensgröße (optional)",
+      "companySizePlaceholder": "Optional auswählen ...",
+      "companySizes": [
+        { "value": "1-19", "label": "1-19 Mitarbeitende" },
+        { "value": "20-49", "label": "20-49 Mitarbeitende" },
+        { "value": "50-249", "label": "50-249 Mitarbeitende" },
+        { "value": "250-999", "label": "250-999 Mitarbeitende" },
+        { "value": "1000+", "label": "1.000+ Mitarbeitende" }
+      ],
+      "challengeLabel": "Größte Herausforderung (optional)",
+      "challengePlaceholder": "Optional auswählen ...",
+      "challenges": [
+        { "value": "knowledge-loss", "label": "Wissensverlust durch Pensionierung oder Fluktuation" },
+        { "value": "onboarding", "label": "Langwierige oder uneinheitliche Einarbeitung" },
+        { "value": "documentation", "label": "Verstreutes Wissen in Dokumenten, Chats und Köpfen" },
+        { "value": "maintenance-efficiency", "label": "Wiederkehrende Fehlersuche im Service oder Betrieb" },
+        { "value": "other", "label": "Sonstiges / Allgemeiner Austausch zum Konzept" }
+      ],
+      "messageLabel": "Nachricht oder Feedback (optional)",
+      "messageHint": "Was ist aktuell Ihre größte Herausforderung bei Wissenstransfer oder Einarbeitung?",
+      "messagePlaceholder": "z. B. Teamgröße, betroffene Bereiche oder konkrete Fragen ...",
+      "privacyLabel": "Ich bin damit einverstanden, dass meine Angaben zur Bearbeitung dieser Konzeptdemo-Anfrage gemäß der Datenschutzerklärung verarbeitet werden.",
+      "privacyLinkText": "Datenschutzerklärung ansehen",
+      "submit": "Konzeptdemo anfragen",
+      "submitting": "Anfrage wird übermittelt ...",
+      "validation": {
+        "nameRequired": "Bitte geben Sie Ihren Namen an (mindestens 2 Zeichen).",
+        "emailRequired": "Bitte geben Sie Ihre geschäftliche E-Mail-Adresse an.",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "companyRequired": "Bitte geben Sie den Namen Ihres Unternehmens an.",
+        "privacyRequired": "Bitte bestätigen Sie den Hinweis zur Verarbeitung Ihrer Anfrage.",
+        "summaryPrefix": "Bitte prüfen Sie die markierten Felder:"
+      },
+      "states": {
+        "configuredSuccessTitle": "Vielen Dank für Ihre Anfrage",
+        "configuredSuccessBody": "Wir haben Ihre Angaben erhalten. Wir melden uns persönlich bei Ihnen, um Ihre Anforderungen und das VIACO-Konzept zu besprechen.",
+        "pendingIntegrationTitle": "Eingaben geprüft: Direkter Versand per E-Mail-Entwurf möglich",
+        "pendingIntegrationBody": "Ihre Angaben wurden erfolgreich validiert. Da in dieser Umgebung noch kein automatischer CRM- oder Mail-Webhook verbunden ist, können Sie Ihre vorbereitete Anfrage direkt an office@viaco.at senden oder kopieren.",
+        "pendingFallbackAction": "E-Mail an office@viaco.at öffnen",
+        "pendingCopySummary": "Anfrage kopieren",
+        "copiedConfirmation": "In die Zwischenablage kopiert",
+        "rateLimitTitle": "Zu viele Anfragen in kurzer Zeit",
+        "rateLimitBody": "Bitte warten Sie einige Minuten, bevor Sie eine weitere Anfrage senden, oder schreiben Sie direkt an office@viaco.at.",
+        "duplicateTitle": "Diese Anfrage wurde gerade übermittelt",
+        "duplicateBody": "Ihre identische Anfrage wurde bereits vor kurzem entgegengenommen. Falls Sie etwas ergänzen möchten, schreiben Sie gerne direkt an office@viaco.at.",
+        "errorTitle": "Übermittlung derzeit nicht möglich",
+        "errorBody": "Bei der Übermittlung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an office@viaco.at.",
+        "resetButton": "Neue Anfrage erfassen"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Konzept für KI-gestützte Wissenssicherung und strukturierte Einarbeitung in Österreich.",
+    "columns": {
+      "solutions": "Plattform und Ablauf",
+      "company": "Orientierung",
+      "legalAndContact": "Rechtliches und Kontakt"
+    },
+    "links": {
+      "problem": "Herausforderungen",
+      "modules": "Plattform-Lösungen",
+      "howItWorks": "Ablauf",
+      "whoWeHelp": "Zielgruppen",
+      "trust": "Datenschutz und Betrieb",
+      "about": "Über VIACO",
+      "contact": "Konzeptdemo anfragen",
+      "impressum": "Impressum",
+      "datenschutz": "Datenschutzerklärung"
+    },
+    "linkedinLabel": "LinkedIn",
+    "statusNote": "VIACO · Konzept- und Validierungsphase · Österreich",
+    "backToTop": "Nach oben"
+  },
+  "legal": {
+    "backHome": "Zurück zur Startseite",
+    "placeholderWarningTitle": "Hinweis zum aktuellen Projektstatus",
+    "placeholderWarningBody": "VIACO befindet sich in der frühen Konzept- und Validierungsphase. Noch ausstehende behördliche Registerangaben sind entsprechend gekennzeichnet und werden vor einer kommerziellen Inbetriebnahme ergänzt.",
+    "impressum": {
+      "title": "Impressum",
+      "subtitle": "Angaben gemäß § 5 ECG, § 14 UGB, § 63 GewO und § 25 MedienG (Österreich)",
+      "sections": [
+        {
+          "heading": "Medieninhaber und Projektverantwortung",
+          "items": [
+            { "label": "Projekt- / Unternehmensbezeichnung", "key": "companyLegalName" },
+            { "label": "Status und Unternehmensgegenstand", "key": "legalForm" },
+            { "label": "Anschrift", "key": "address" },
+            { "label": "Land", "key": "country" }
+          ]
+        },
+        {
+          "heading": "Kontakt",
+          "items": [
+            { "label": "E-Mail", "key": "email" },
+            { "label": "Telefon", "key": "phone" }
+          ]
+        },
+        {
+          "heading": "Register- und Gewerbeangaben (vor kommerziellem Launch zu ergänzen)",
+          "items": [
+            { "label": "Firmenbuchnummer und Gericht", "key": "commercialRegister" },
+            { "label": "UID-Nummer", "key": "vatId" },
+            { "label": "Kammerzugehörigkeit / Fachgruppe", "key": "chamber" },
+            { "label": "Zuständige Behörde", "key": "authority" }
+          ]
+        },
+        {
+          "heading": "Blattlinie (§ 25 MedienG)",
+          "body": "Information über das Software- und KI-Konzept VIACO für betriebliche Wissenssicherung und strukturierte Mitarbeiter-Einarbeitung sowie Möglichkeit zur unverbindlichen Kontaktaufnahme für Konzeptgespräche."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "subtitle": "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO und TKG 2021",
+      "sections": [
+        {
+          "heading": "1. Verantwortlicher und Kontakt",
+          "body": "Verantwortlich für die Verarbeitung personenbezogener Daten auf dieser Website ist das Projekt VIACO (Kontakt: office@viaco.at). Vollständige Register- und Standortangaben entnehmen Sie dem Impressum."
+        },
+        {
+          "heading": "2. Hosting über Vercel und Server-Verbindungsdaten",
+          "body": "Diese Website wird über Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA) gehostet. Beim Aufruf der Seiten verarbeitet die Infrastruktur technisch erforderliche Verbindungsdaten (z. B. IP-Adresse, Zeitpunkt, angeforderter Pfad, User-Agent) in Server-Logs, um Betriebssicherheit und Auslieferung zu gewährleisten (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO). Für etwaige Drittlandübermittlungen stützt sich die Nutzung auf geeignete Garantien gemäß Art. 44 ff. DSGVO (z. B. EU-Standardvertragsklauseln bzw. EU-US Data Privacy Framework, sofern zertifiziert)."
+        },
+        {
+          "heading": "3. Cookiefreie Reichweiten- und Performance-Messung (Vercel Web Analytics und Speed Insights)",
+          "body": "Zur technischen Stabilitätsprüfung und anonymisierten Auswertung nutzen wir Vercel Web Analytics und Vercel Speed Insights. Diese Dienste arbeiten ohne klassische Werbe-Cookies und speichern keine Namen, E-Mail-Adressen oder Formularinhalte in Ereignisdaten. Query-Parameter werden vor dem Versand bereinigt, und Signale wie Do Not Track (DNT) sowie Global Privacy Control (GPC) werden respektiert. Über das untenstehende Bedienelement können Sie die Messung in diesem Browser jederzeit deaktivieren."
+        },
+        {
+          "heading": "4. Kontakt- und Konzeptdemo-Anfragen",
+          "body": "Wenn Sie das Formular „Konzeptdemo anfragen“ nutzen, verarbeiten wir Ihren Namen, Ihre geschäftliche E-Mail-Adresse, Ihren Unternehmensnamen sowie Ihre optionalen Angaben (Unternehmensgröße, Herausforderung, Nachricht) ausschließlich zur Prüfung und Beantwortung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO zur Anbahnung bzw. Art. 6 Abs. 1 lit. f DSGVO). Es werden keine Marketing-Newsletter ohne gesonderte Einwilligung versendet. Technische Fehlerprotokolle der API-Schnittstelle anonymisieren sämtliche Kontaktdaten."
+        },
+        {
+          "heading": "5. Speicherdauer und Ihre Rechte",
+          "body": "Anfragedaten speichern wir nur so lange, wie es für die Bearbeitung des Gesprächs und gesetzliche Aufbewahrungspflichten erforderlich ist. Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21 DSGVO) via office@viaco.at. Zudem besteht ein Beschwerderecht bei der Österreichischen Datenschutzbehörde (Barichgasse 40 bis 42, 1030 Wien, dsb.gv.at)."
+        }
+      ],
+      "optOutControl": {
+        "title": "Einstellung zur anonymisierten Nutzungs- und Performance-Messung",
+        "description": "Sie können die anonymisierte Erfassung von Seitenaufrufen und Web-Vitals (Vercel Web Analytics / Speed Insights) in diesem Browser direkt deaktivieren oder wieder aktivieren.",
+        "statusActive": "Status: Anonymisierte Messung aktiv (sofern DNT/GPC im Browser nicht gesetzt ist)",
+        "statusDisabled": "Status: Messung in diesem Browser deaktiviert",
+        "statusDnt": "Hinweis: Ihr Browser sendet ein Do-Not-Track- oder Global-Privacy-Control-Signal. Die Messung wird automatisch unterdrückt.",
+        "disableButton": "Messung deaktivieren",
+        "enableButton": "Messung wieder aktivieren"
+      }
+    }
+  }
+}
