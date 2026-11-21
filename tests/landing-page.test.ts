@@ -197,6 +197,8 @@ describe("VIACO Asset Integrity & Non-Duplication", () => {
     assert.ok(headerCode.includes('src="/logo.png"'));
     assert.ok(footerCode.includes('src="/logo.png"'));
     assert.ok(layoutCode.includes('"/open-graph.png"'));
+    assert.ok(layoutCode.includes('import { Analytics } from "@vercel/analytics/next"'));
+    assert.ok(layoutCode.includes("<Analytics />"));
   });
 });
 

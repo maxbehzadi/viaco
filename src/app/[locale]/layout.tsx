@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Playfair_Display } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
-import { VercelTelemetry } from "@/components/layout/VercelTelemetry";
 import { MotionProvider } from "@/components/ui/SectionReveal";
 import { SITE_CONFIG } from "@/config/site";
 import { isValidLocale, locales, type Locale } from "@/i18n/config";
@@ -146,7 +147,8 @@ export default async function LocaleLayout({
             <Footer locale={locale} dict={dict} />
           </div>
         </MotionProvider>
-        <VercelTelemetry />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

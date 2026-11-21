@@ -29,29 +29,15 @@ export interface ConversionEventProps {
 type SafeAnalyticsValue = string | boolean;
 
 /**
- * Checks whether browser privacy signals (DNT / GPC) or explicit user opt-out
- * prohibit firing telemetry events.
+ * Checks whether telemetry is disabled globally or the visitor explicitly opted out
+ * via localStorage.
  */
 export function isAnalyticsSuppressed(): boolean {
   if (!SITE_CONFIG.analytics.enabled) {
     return true;
   }
 
-  if (typeof window === "undefined" || typeof navigator === "undefined") {
-    return true;
-  }
-
-  const nav = navigator as Navigator & {
-    globalPrivacyControl?: boolean;
-    msDoNotTrack?: string;
-  };
-
-  if (
-    nav.doNotTrack === "1" ||
-    nav.doNotTrack === "yes" ||
-    nav.msDoNotTrack === "1" ||
-    nav.globalPrivacyControl === true
-  ) {
+  if (typeof window === "undefined") {
     return true;
   }
 
